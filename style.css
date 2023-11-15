@@ -1,0 +1,158 @@
+body {
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header,
+footer,
+.container1 {
+    background-color: #1f2937;
+    color: white;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a,
+.subtext1{
+    font: 18px;
+    color: #e5e7eb;
+}
+
+.container1 {
+    Display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.leftcol {
+    flex-direction: column;
+}
+
+.head1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subtext1 {
+    font: 18px;
+    color: #e5e7eb;
+}
+
+.button1,
+.button2,
+.head3,
+.subtext3 {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.button1 {
+    margin-top: 20px;
+}
+
+.image1 {
+    margin-left: 50px;
+}
+
+.head2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.head2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image2 {
+    background-color: #3882f6;
+    padding: 5px;
+    gap: 5px;
+    width: 150px; 
+}
+
+.figure {
+    padding: 5px;
+    gap: 5px;
+}
+
+.subtext2,
+.figure {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.author{
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.container4 {
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px 45px;
+    border: 10px;
+    margin: 35px;
+    width:fit-content;
+    justify-content: center;
+    align-self: center;
+}
+
+.head3 {
+    font: 24px;
+}
+
+.subtext3 {
+    font: 18px;
+}
+
+.button2{
+    width: 80px;
+    margin-left: 30px;
+
+}
+
